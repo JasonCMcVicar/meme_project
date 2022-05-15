@@ -11,6 +11,8 @@ form.addEventListener('submit', function(event){
   const wordFormB = makeBottom(bottomText.value);
   memePlace.appendChild(wordFormA);
   memePlace.appendChild(wordFormB);
+  topText.value = '';
+  bottomText.value = '';
 });
 
 function makeTop(top) {
