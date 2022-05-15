@@ -4,11 +4,14 @@ body {
 
 form {
     background-color: peachpuff;
-    position: fixed;
     width: 1000px;
 }
 
 input {
     width: 900px;
     background-color: oldlace;
+}
+
+section {
+
 }
