@@ -22,11 +22,6 @@ input {
     background-color: oldlace;
 }
 
-.supreme {
-    width: 500px;
-    height: 550px;
-}
-
 .oned {
     display: flex;
     flex-direction: column;
