@@ -33,10 +33,6 @@ div {
     margin-bottom: 5px;
 }
 
-div:hover {
-    background-size: 0px;
-}
-
 h2 {
     margin-top: -130px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,4 +54,10 @@ h3 {
 button {
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 30px;
+}
+
+span {
+    color: purple;
+    text-shadow: 2px 2px 2px white;
 }
