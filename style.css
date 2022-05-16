@@ -22,7 +22,7 @@ input {
     background-color: oldlace;
 }
 
-.oned {
+div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -31,6 +31,10 @@ input {
     background-size: 500px 500px;
     margin-top: 15px;
     margin-bottom: 5px;
+}
+
+div:hover {
+    background-size: 0px;
 }
 
 h2 {

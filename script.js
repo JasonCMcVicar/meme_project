@@ -15,7 +15,7 @@ form.addEventListener('submit', function(event){
 
   //create div that will contain picture plus words
   const imageDiv = document.createElement('div');
-  imageDiv.className = 'oned';
+
 
   imageDiv.style.backgroundImage = `url(${photo.value})`;
   //add top and bottom text
@@ -24,8 +24,6 @@ form.addEventListener('submit', function(event){
 
   memePlace.appendChild(imageDiv);
 
-
-
   //reset inputs
   topText.value = '';
   bottomText.value = '';
@@ -33,6 +31,10 @@ form.addEventListener('submit', function(event){
 
 });
 
+memePlace.addEventListener('click', function(event){
+  memePlace.removeChild(event.target);
+  console.log('hye');
+});
 
 function makeTop(top) {
   const topOf = document.createElement('h2');
