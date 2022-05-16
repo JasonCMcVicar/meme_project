@@ -7,11 +7,45 @@ form {
     width: 1000px;
 }
 
+.input-text {
+    color: red;
+    text-shadow: 2px 2px 2px white;
+}
+
+.big-input-text {
+    color: green;
+    text-shadow: 2px 2px 2px white;
+}
+
 input {
     width: 900px;
     background-color: oldlace;
 }
 
-section {
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+    background-size: 500px 500px;
 
+}
+
+h2 {
+    margin-top: -130px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: pink;
+    text-shadow: 6px 6px 10px black;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: -130px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: pink;
+    text-shadow: 6px 6px 10px black;
+    text-align: center;
 }
