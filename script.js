@@ -16,12 +16,14 @@ form.addEventListener('submit', function(event){
   //create div that will contain picture plus words
   const imageDiv = document.createElement('div');
 
-
+  //create the image for the new div
   imageDiv.style.backgroundImage = `url(${photo.value})`;
+
   //add top and bottom text
   imageDiv.appendChild(wordFormA);
   imageDiv.appendChild(wordFormB);
 
+  //add the background image plus words to the new div
   memePlace.appendChild(imageDiv);
 
   //reset inputs
@@ -31,9 +33,10 @@ form.addEventListener('submit', function(event){
 
 });
 
+//to remove a meme
 memePlace.addEventListener('click', function(event){
+  console.log("you clicked on: ", event.target);
   memePlace.removeChild(event.target);
-  console.log('hye');
 });
 
 function makeTop(top) {
